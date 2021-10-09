@@ -1,0 +1,99 @@
+/*
+    Imports
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/*
+    General Styles
+*/
+
+* {
+    font-family: 'Bree Serif'; 
+}
+
+/*
+    Color Palete :
+
+    #000000
+    #2f4e6f
+    #98b1c4
+    #c8d7e3
+    #e15119
+
+*/
+
+/*
+    Main Structure
+*/
+
+.body {
+
+    background-color: #98b1c4 ;
+
+}
+
+.body__header {
+
+    background-color: #2f4e6f ;
+    padding: 2.5% 10% ;
+
+
+}
+
+
+/*
+    Header Elements
+*/
+
+.body__header__h1 {
+
+    color: #fff;
+    font-size: 5.5vh;
+
+}
+
+.body__header__h2 {
+
+    color: #fff;
+    font-size: 4vh;
+
+}
+
+.body__header__h3 {
+
+    color: #fff;
+    font-size: 2vh;
+
+}
+
+.body__section__p1 {
+    color: #fff;
+    background-color: #22526f;
+
+    margin: 5vh 10vw 0 10vw;
+    padding: 5vh 10vw 5vh 10vw;
+
+    text-align: center;
+
+    box-shadow: 0 0.5em 1em 0 #000000;
+}
+
+.body__section__carousel {
+
+    background-color: #22526f;
+
+    margin: 5vh 10vw 0 10vw;
+    padding: 5vh 10vw 5vh 10vw;
+
+    box-shadow: 0 0.5em 1em 0 #000000;
+
+    text-align : center ;
+}
+
+.body__section__carousel__h2 {
+    font-size: 2.5vh;
+    color: white;
+    margin-left: 5%;
+    margin-left: 15%;
+}

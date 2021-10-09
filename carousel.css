@@ -1,0 +1,148 @@
+  .body__section__carousel__slider {
+    margin-left: 25%;
+    width: 50em;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .body__section__carousel__slider__slides {
+    display: flex;
+    
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    
+    
+    
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    
+    /*
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+    */
+  }
+  .body__section__carousel__slider__slides::-webkit-scrollbar {
+    width: 1px;
+    height: 0.5rem;
+  }
+  .body__section__carousel__slider__slides::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 0.5rem;
+  }
+  .body__section__carousel__slider__slides::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .body__section__carousel__slider__slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 7.97em;
+    height: 5em;
+    margin-right: 0;
+    border-radius: 1rem;
+    border: solid #fff 0.1rem;
+    background: linear-gradient(0deg, rgba(47,78,111,1) 0%, rgba(0,0,0,1) 100%);
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 1s;
+    position: relative;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+  }
+.body__section__carousel__slider__slides > div:target {
+    /*transform: scale(1.1);*/
+  }
+  
+  .body__section__carousel__slider > a {
+    display: inline-flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 1rem 0;
+    position: relative;
+    box-shadow: 0 0 1rem 0 #000 ;
+    box-shadow: inside 0 0 1rem 0 #000 ;
+  }
+  .body__section__carousel__slider > a:active {
+    top: 1px;
+  }
+  .body__section__carousel__slider > a:focus {
+    background: #2f4e6f;
+    color: white;
+  }
+  .body__section__carousel__slider > a {
+    background: #FFF;
+    color: #2f4e6f;
+  }
+  .body__section__carousel__slider > a:visited {
+    background: #FFF;
+    color: #2f4e6f;
+  }
+
+  
+  /* Don't need button navigation */
+  @supports (scroll-snap-type) {
+    .body__section__carousel__slider > a {
+      display: none;
+    }
+  }
+  
+  .body__section__carousel__slider__slides{
+    color : white;
+  }
+
+  #body_section_carousel_slider_slides_slide-1:hover{
+    color: gray;
+  }
+
+  #body_section_carousel_slider_slides_slide-2:hover{
+    color: #ff5500;
+  }
+  #body_section_carousel_slider_slides_slide-3:hover{
+    color: #0000ff;
+  }
+  #body_section_carousel_slider_slides_slide-4:hover{
+    color: #ffff00;
+  }
+  #body_section_carousel_slider_slides_slide-5:hover{
+    color: #00ddff;
+  }
+  #body_section_carousel_slider_slides_slide-6:hover{
+    color: #dd8800;
+  }
+
+  
+  #body_section_carousel_slider_slides_slide2-1:hover{
+    color: #00ddff;
+  }
+
+  #body_section_carousel_slider_slides_slide2-2:hover{
+    color: gray;
+  }
+  #body_section_carousel_slider_slides_slide2-3:hover{
+    color: white;
+  }
+  #body_section_carousel_slider_slides_slide2-4:hover{
+    color: red;
+  }
+  #body_section_carousel_slider_slides_slide2-5:hover{
+    color: blue;
+  }
+  #body_section_carousel_slider_slides_slide2-6:hover{
+    color: gray;
+  }
+
+  #body_section_carousel_slider_slides_slide3-1:hover{
+    color: aquamarine;
+  }
+  #body_section_carousel_slider_slides_slide3-2:hover{
+    color: red;
+  }
+  #body_section_carousel_slider_slides_slide3-3:hover{
+    color: lime;
+  }
